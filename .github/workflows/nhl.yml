@@ -2,11 +2,11 @@ name: NHL bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # toutes les 15 minutes
-  workflow_dispatch:          # bouton "Run workflow" pour tester à la main
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write             # nécessaire pour sauvegarder state.json
+  contents: write
 
 concurrency:
   group: nhl-bot
@@ -21,9 +21,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
-      - run: pip install -r requirements.txt
+      - run: pip install requests
 
       - name: Lancer le bot
         run: python bot.py
