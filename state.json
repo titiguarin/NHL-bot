@@ -1,0 +1,155 @@
+{
+ "analysed": [
+  "2026020084",
+  "2026020085",
+  "2026020086"
+ ],
+ "lines": {
+  "2026020084-SEA": {
+   "players": [
+    "Jared McCann",
+    "Matty Beniers",
+    "Mackie Samoskevich",
+    "Bobby McMann",
+    "Chandler Stephenson",
+    "Jordan Eberle",
+    "Kaapo Kakko",
+    "Berkly Catton",
+    "Shane Wright",
+    "Ben Meyers",
+    "Frederick Gaudreau",
+    "Ryan Winterton",
+    "Vince Dunn",
+    "Adam Larsson",
+    "Ryker Evans",
+    "Brandon Montour",
+    "Joshua Mahura",
+    "Ville Ottavainen",
+    "Joey Daccord"
+   ],
+   "text": "F1 : Jared McCann – Matty Beniers – Mackie Samoskevich\nF2 : Bobby McMann – Chandler Stephenson – Jordan Eberle\nF3 : Kaapo Kakko – Berkly Catton – Shane Wright\nF4 : Ben Meyers – Frederick Gaudreau – Ryan Winterton\nD1 : Vince Dunn – Adam Larsson\nD2 : Ryker Evans – Brandon Montour\nD3 : Joshua Mahura – Ville Ottavainen\n🥅 Gardien probable : Joey Daccord"
+  },
+  "2026020084-WSH": {
+   "players": [
+    "Alex Tuch",
+    "Pierre-Luc Dubois",
+    "Tom Wilson",
+    "Alex Ovechkin",
+    "Dylan Strome",
+    "Anthony Beauvillier",
+    "Aliaksei Protas",
+    "Ilya Protas",
+    "Jordan Kyrou",
+    "Boone Jenner",
+    "Justin Sourdif",
+    "Ryan Leonard",
+    "Jakob Chychrun",
+    "Timothy Liljegren",
+    "Martin Fehervary",
+    "Vincent Desharnais",
+    "Cole Hutson",
+    "Dylan McIlrath",
+    "Charlie Lindgren"
+   ],
+   "text": "F1 : Alex Tuch – Pierre-Luc Dubois – Tom Wilson\nF2 : Alex Ovechkin – Dylan Strome – Anthony Beauvillier\nF3 : Aliaksei Protas – Ilya Protas – Jordan Kyrou\nF4 : Boone Jenner – Justin Sourdif – Ryan Leonard\nD1 : Jakob Chychrun – Timothy Liljegren\nD2 : Martin Fehervary – Vincent Desharnais\nD3 : Cole Hutson – Dylan McIlrath\n🥅 Gardien probable : Charlie Lindgren"
+  },
+  "2026020085-NYR": {
+   "players": [
+    "Gabriel Perreault",
+    "Mika Zibanejad",
+    "Pavel Dorofeyev",
+    "Tye Kartye",
+    "J.T. Miller",
+    "Alexis Lafrenière",
+    "Will Cuylle",
+    "Noah Laba",
+    "Eeli Tolvanen",
+    "Oliver Bjorkstrand",
+    "Cole Beaudoin",
+    "Jaroslav Chmelar",
+    "Vladislav Gavrikov",
+    "Adam Fox",
+    "Marcus Pettersson",
+    "Sean Durzi",
+    "Alberts Smits",
+    "Braden Schneider",
+    "Callum Tung"
+   ],
+   "text": "F1 : Gabriel Perreault – Mika Zibanejad – Pavel Dorofeyev\nF2 : Tye Kartye – J.T. Miller – Alexis Lafrenière\nF3 : Will Cuylle – Noah Laba – Eeli Tolvanen\nF4 : Oliver Bjorkstrand – Cole Beaudoin – Jaroslav Chmelar\nD1 : Vladislav Gavrikov – Adam Fox\nD2 : Marcus Pettersson – Sean Durzi\nD3 : Alberts Smits – Braden Schneider\n🥅 Gardien probable : Callum Tung"
+  },
+  "2026020085-VAN": {
+   "players": [
+    "Jake DeBrusk",
+    "Elias Pettersson",
+    "Jonathan Lekkerimaki",
+    "Paul Cotter",
+    "Marco Rossi",
+    "Linus Karlsson",
+    "Liam Ohgren",
+    "Drew O'Connor",
+    "Brock Boeser",
+    "Arshdeep Bains",
+    "Max Sasson",
+    "Brendan Gallagher",
+    "Zeev Buium",
+    "Filip Hronek",
+    "Jamie Oleksiak",
+    "Tom Willander",
+    "Elias Nils Pettersson",
+    "Luke Schenn",
+    "Kevin Lankinen"
+   ],
+   "text": "F1 : Jake DeBrusk – Elias Pettersson – Jonathan Lekkerimaki\nF2 : Paul Cotter – Marco Rossi – Linus Karlsson\nF3 : Liam Ohgren – Drew O'Connor – Brock Boeser\nF4 : Arshdeep Bains – Max Sasson – Brendan Gallagher\nD1 : Zeev Buium – Filip Hronek\nD2 : Jamie Oleksiak – Tom Willander\nD3 : Elias Nils Pettersson – Luke Schenn\n🥅 Gardien probable : Kevin Lankinen"
+  },
+  "2026020086-CAR": {
+   "players": [
+    "William Carrier",
+    "Sebastian Aho",
+    "Andrei Svechnikov",
+    "Taylor Hall",
+    "Logan Stankoven",
+    "Jackson Blake",
+    "Nikolaj Ehlers",
+    "Jordan Staal",
+    "Jordan Martinook",
+    "Eric Robinson",
+    "Mark Jankowski",
+    "Jesperi Kotkaniemi",
+    "Jaccob Slavin",
+    "Jalen Chatfield",
+    "K'Andre Miller",
+    "Sean Walker",
+    "Shayne Gostisbehere",
+    "Mike Reilly",
+    "Brandon Bussi"
+   ],
+   "text": "F1 : William Carrier – Sebastian Aho – Andrei Svechnikov\nF2 : Taylor Hall – Logan Stankoven – Jackson Blake\nF3 : Nikolaj Ehlers – Jordan Staal – Jordan Martinook\nF4 : Eric Robinson – Mark Jankowski – Jesperi Kotkaniemi\nD1 : Jaccob Slavin – Jalen Chatfield\nD2 : K'Andre Miller – Sean Walker\nD3 : Shayne Gostisbehere – Mike Reilly\n🥅 Gardien probable : Brandon Bussi"
+  },
+  "2026020086-PHI": {
+   "players": [
+    "Trevor Zegras",
+    "Christian Dvorak",
+    "Tyson Foerster",
+    "Owen Tippett",
+    "Sean Couturier",
+    "Matvei Michkov",
+    "Denver Barkey",
+    "Noah Cates",
+    "Porter Martone",
+    "Michael Bunting",
+    "Noel Acciari",
+    "Garrett Wilson",
+    "Travis Sanheim",
+    "Jamie Drysdale",
+    "Nick Seeler",
+    "David Jiricek",
+    "Helge Grans",
+    "Simon Benoit",
+    "Dan Vladar"
+   ],
+   "text": "F1 : Trevor Zegras – Christian Dvorak – Tyson Foerster\nF2 : Owen Tippett – Sean Couturier – Matvei Michkov\nF3 : Denver Barkey – Noah Cates – Porter Martone\nF4 : Michael Bunting – Noel Acciari – Garrett Wilson\nD1 : Travis Sanheim – Jamie Drysdale\nD2 : Nick Seeler – David Jiricek\nD3 : Helge Grans – Simon Benoit\n🥅 Gardien probable : Dan Vladar"
+  }
+ },
+ "offset": 0,
+ "teams": []
+}
