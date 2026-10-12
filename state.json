@@ -2,7 +2,8 @@
  "analysed": [
   "2026020084",
   "2026020085",
-  "2026020086"
+  "2026020086",
+  "2026020087"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -148,6 +149,54 @@
     "Dan Vladar"
    ],
    "text": "F1 : Denver Barkey – Christian Dvorak – Tyson Foerster\nF2 : Owen Tippett – Sean Couturier – Porter Martone\nF3 : Michael Bunting – Trevor Zegras – Matvei Michkov\nF4 : Carl Grundstrom – Noah Cates – Noel Acciari\nD1 : Travis Sanheim – Oliver Bonk\nD2 : Nick Seeler – Jamie Drysdale\nD3 : Simon Benoit – David Jiricek\n🥅 Gardien probable : Dan Vladar"
+  },
+  "2026020087-BUF": {
+   "players": [
+    "Josh Norris",
+    "Tage Thompson",
+    "Jack Quinn",
+    "Zach Benson",
+    "Noah Ostlund",
+    "Josh Doan",
+    "Peyton Krebs",
+    "Ryan McLeod",
+    "Justin Danforth",
+    "Tyson Kozak",
+    "Sam Carrick",
+    "Beck Malenstyn",
+    "Mattias Samuelsson",
+    "Rasmus Dahlin",
+    "Olen Zellweger",
+    "Owen Power",
+    "Zach Metsa",
+    "Louis Crevier",
+    "Colten Ellis"
+   ],
+   "text": "F1 : Josh Norris – Tage Thompson – Jack Quinn\nF2 : Zach Benson – Noah Ostlund – Josh Doan\nF3 : Peyton Krebs – Ryan McLeod – Justin Danforth\nF4 : Tyson Kozak – Sam Carrick – Beck Malenstyn\nD1 : Mattias Samuelsson – Rasmus Dahlin\nD2 : Olen Zellweger – Owen Power\nD3 : Zach Metsa – Louis Crevier\n🥅 Gardien probable : Colten Ellis"
+  },
+  "2026020087-FLA": {
+   "players": [
+    "Brady Tkachuk",
+    "Sam Bennett",
+    "Matthew Tkachuk",
+    "Carter Verhaeghe",
+    "Sam Reinhart",
+    "Sam Lafferty",
+    "Eetu Luostarinen",
+    "Anton Lundell",
+    "Sandis Vilmanis",
+    "Bokondji Imama",
+    "Lars Eller",
+    "Garnet Hathaway",
+    "Gustav Forsling",
+    "Aaron Ekblad",
+    "Niko Mikkola",
+    "Seth Jones",
+    "Radko Gudas",
+    "Dmitry Kulikov",
+    "Akira Schmid"
+   ],
+   "text": "F1 : Brady Tkachuk – Sam Bennett – Matthew Tkachuk\nF2 : Carter Verhaeghe – Sam Reinhart – Sam Lafferty\nF3 : Eetu Luostarinen – Anton Lundell – Sandis Vilmanis\nF4 : Bokondji Imama – Lars Eller – Garnet Hathaway\nD1 : Gustav Forsling – Aaron Ekblad\nD2 : Niko Mikkola – Seth Jones\nD3 : Radko Gudas – Dmitry Kulikov\n🥅 Gardien probable : Akira Schmid"
   }
  },
  "offset": 265304001,
