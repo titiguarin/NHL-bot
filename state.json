@@ -4,7 +4,8 @@
   "2026020085",
   "2026020086",
   "2026020087",
-  "2026020088"
+  "2026020088",
+  "2026020089"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -246,6 +247,54 @@
     "Linus Ullmark"
    ],
    "text": "F1 : Warren Foegele – Tim Stützle – Drake Batherson\nF2 : Andre Burakovsky – Dylan Cozens – Ridly Greig\nF3 : Michael Amadio – Shane Pinto – Claude Giroux\nF4 : Fabian Zetterlund – Stephen Halliday – Nick Cousins\nD1 : Thomas Chabot – Jordan Spence\nD2 : Tyler Kleven – Carter Yakemchuk\nD3 : Nikolas Matinpalo – Hoyt Stanley\n🥅 Gardien probable : Linus Ullmark"
+  },
+  "2026020089-MIN": {
+   "players": [
+    "Kirill Kaprizov",
+    "Joel Eriksson Ek",
+    "Matt Boldy",
+    "Blake Coleman",
+    "Ryan Hartman",
+    "Maxim Shabanov",
+    "Rieger Lorenz",
+    "Danila Yurov",
+    "Bobby Brink",
+    "Nico Sturm",
+    "Michael McCarron",
+    "Yakov Trenin",
+    "Quinn Hughes",
+    "Jared Spurgeon",
+    "Olli Maatta",
+    "Jonas Brodin",
+    "Daemon Hunt",
+    "Zach Bogosian",
+    "Calvin Pickard"
+   ],
+   "text": "F1 : Kirill Kaprizov – Joel Eriksson Ek – Matt Boldy\nF2 : Blake Coleman – Ryan Hartman – Maxim Shabanov\nF3 : Rieger Lorenz – Danila Yurov – Bobby Brink\nF4 : Nico Sturm – Michael McCarron – Yakov Trenin\nD1 : Quinn Hughes – Jared Spurgeon\nD2 : Olli Maatta – Jonas Brodin\nD3 : Daemon Hunt – Zach Bogosian\n🥅 Gardien probable : Calvin Pickard"
+  },
+  "2026020089-VGK": {
+   "players": [
+    "Ivan Barbashev",
+    "Jack Eichel",
+    "Mark Stone",
+    "Brett Howden",
+    "William Karlsson",
+    "Mitch Marner",
+    "Trevor Connelly",
+    "Tomas Hertl",
+    "Raphael Lavoie",
+    "Braeden Bowman",
+    "Nic Dowd",
+    "Marc Gatcomb",
+    "Brayden McNabb",
+    "Shea Theodore",
+    "Parker Wotherspoon",
+    "Rasmus Andersson",
+    "Jeremy Lauzon",
+    "Noah Hanifin",
+    "Adin Hill"
+   ],
+   "text": "F1 : Ivan Barbashev – Jack Eichel – Mark Stone\nF2 : Brett Howden – William Karlsson – Mitch Marner\nF3 : Trevor Connelly – Tomas Hertl – Raphael Lavoie\nF4 : Braeden Bowman – Nic Dowd – Marc Gatcomb\nD1 : Brayden McNabb – Shea Theodore\nD2 : Parker Wotherspoon – Rasmus Andersson\nD3 : Jeremy Lauzon – Noah Hanifin\n🥅 Gardien probable : Adin Hill"
   }
  },
  "offset": 265304001,
