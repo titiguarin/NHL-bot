@@ -152,18 +152,18 @@
   },
   "2026020087-BUF": {
    "players": [
-    "Josh Norris",
+    "Peyton Krebs",
     "Tage Thompson",
-    "Jack Quinn",
+    "Josh Doan",
     "Zach Benson",
     "Noah Ostlund",
-    "Josh Doan",
-    "Peyton Krebs",
+    "Jack Quinn",
+    "Josh Norris",
     "Ryan McLeod",
-    "Justin Danforth",
-    "Tyson Kozak",
-    "Sam Carrick",
+    "Konsta Helenius",
     "Beck Malenstyn",
+    "Sam Carrick",
+    "Tyson Kozak",
     "Mattias Samuelsson",
     "Rasmus Dahlin",
     "Olen Zellweger",
@@ -172,21 +172,21 @@
     "Louis Crevier",
     "Colten Ellis"
    ],
-   "text": "F1 : Josh Norris – Tage Thompson – Jack Quinn\nF2 : Zach Benson – Noah Ostlund – Josh Doan\nF3 : Peyton Krebs – Ryan McLeod – Justin Danforth\nF4 : Tyson Kozak – Sam Carrick – Beck Malenstyn\nD1 : Mattias Samuelsson – Rasmus Dahlin\nD2 : Olen Zellweger – Owen Power\nD3 : Zach Metsa – Louis Crevier\n🥅 Gardien probable : Colten Ellis"
+   "text": "F1 : Peyton Krebs – Tage Thompson – Josh Doan\nF2 : Zach Benson – Noah Ostlund – Jack Quinn\nF3 : Josh Norris – Ryan McLeod – Konsta Helenius\nF4 : Beck Malenstyn – Sam Carrick – Tyson Kozak\nD1 : Mattias Samuelsson – Rasmus Dahlin\nD2 : Olen Zellweger – Owen Power\nD3 : Zach Metsa – Louis Crevier\n🥅 Gardien probable : Colten Ellis"
   },
   "2026020087-FLA": {
    "players": [
-    "Brady Tkachuk",
+    "Carter Verhaeghe",
     "Sam Bennett",
     "Matthew Tkachuk",
-    "Carter Verhaeghe",
+    "Brady Tkachuk",
+    "Lars Eller",
     "Sam Reinhart",
-    "Sam Lafferty",
     "Eetu Luostarinen",
     "Anton Lundell",
     "Sandis Vilmanis",
     "Bokondji Imama",
-    "Lars Eller",
+    "Sam Lafferty",
     "Garnet Hathaway",
     "Gustav Forsling",
     "Aaron Ekblad",
@@ -196,7 +196,7 @@
     "Dmitry Kulikov",
     "Akira Schmid"
    ],
-   "text": "F1 : Brady Tkachuk – Sam Bennett – Matthew Tkachuk\nF2 : Carter Verhaeghe – Sam Reinhart – Sam Lafferty\nF3 : Eetu Luostarinen – Anton Lundell – Sandis Vilmanis\nF4 : Bokondji Imama – Lars Eller – Garnet Hathaway\nD1 : Gustav Forsling – Aaron Ekblad\nD2 : Niko Mikkola – Seth Jones\nD3 : Radko Gudas – Dmitry Kulikov\n🥅 Gardien probable : Akira Schmid"
+   "text": "F1 : Carter Verhaeghe – Sam Bennett – Matthew Tkachuk\nF2 : Brady Tkachuk – Lars Eller – Sam Reinhart\nF3 : Eetu Luostarinen – Anton Lundell – Sandis Vilmanis\nF4 : Bokondji Imama – Sam Lafferty – Garnet Hathaway\nD1 : Gustav Forsling – Aaron Ekblad\nD2 : Niko Mikkola – Seth Jones\nD3 : Radko Gudas – Dmitry Kulikov\n🥅 Gardien probable : Akira Schmid"
   }
  },
  "offset": 265304001,
