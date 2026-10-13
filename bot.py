@@ -4,7 +4,8 @@ Lancé toutes les 15 min par GitHub Actions (voir nhl.yml). Sans serveur.
 
 Sources :
 - API officielle NHL (api-web.nhle.com) : calendrier, classement, stats, game logs
-- DailyFaceoff : lignes probables et gardiens (lecture de la page publique)
+  et COMPOSITIONS OFFICIELLES (joueurs habillés, publiés environ 1 h avant le match)
+Aucune notification automatique n'est envoyée avant la compo officielle.
 """
 import json
 import math
@@ -23,7 +24,8 @@ STATE_FILE = "state.json"
 ET = ZoneInfo("America/New_York")
 PARIS = ZoneInfo("Europe/Paris")
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; nhl-telegram-bot)"}
-WINDOW_HOURS = 8  # on notifie les compos dans les 8 h avant le coup d'envoi
+WINDOW_BEFORE = 2.0   # on surveille les matchs qui commencent dans les 2 h
+WINDOW_AFTER = 0.5    # et ceux commencés depuis moins de 30 min
 
 # abréviation NHL -> slug DailyFaceoff
 TEAMS = {
@@ -80,15 +82,14 @@ def load_state():
         s = {}
     s.setdefault("offset", 0)
     s.setdefault("teams", [])      # vide = toutes les équipes
-    s.setdefault("lines", {})      # "gameId-TEAM" -> {"text":..., "players":[...]}
-    s.setdefault("analysed", [])   # ids de matchs déjà analysés
+    s.setdefault("official", [])   # ids de matchs dont la compo officielle a déjà été envoyée
     return s
 
 
 def save_state(s):
-    s["analysed"] = s["analysed"][-300:]
-    if len(s["lines"]) > 300:
-        s["lines"] = dict(list(s["lines"].items())[-300:])
+    s["official"] = s["official"][-300:]
+    s.pop("lines", None)
+    s.pop("analysed", None)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(s, f, ensure_ascii=False, indent=1, sort_keys=True)
 
@@ -179,9 +180,12 @@ def win_prob(g, st):
 
 
 # ------------------------------------------------------------------ joueurs en forme
-def player_form(team):
+def player_form(team, dressed=None):
     d = get(f"{API}/club-stats/{team}/now") or {}
-    skaters = sorted(d.get("skaters", []), key=lambda p: p.get("points", 0), reverse=True)[:7]
+    skaters = d.get("skaters", [])
+    if dressed is not None:  # compo officielle connue : on ne garde que les joueurs qui jouent
+        skaters = [p for p in skaters if p["playerId"] in dressed]
+    skaters = sorted(skaters, key=lambda p: p.get("points", 0), reverse=True)[:8]
     out = []
     for p in skaters:
         log = (get(f"{API}/player/{p['playerId']}/game-log/now") or {}).get("gameLog", [])[:5]
@@ -203,8 +207,8 @@ def player_form(team):
     return out
 
 
-def form_block(team):
-    pl = player_form(team)
+def form_block(team, dressed=None):
+    pl = player_form(team, dressed)
     if not pl:
         return f"<b>{team}</b> : pas assez de données récentes.\n"
     hot = sorted(pl, key=lambda x: x["form"], reverse=True)[:3]
@@ -218,75 +222,54 @@ def form_block(team):
     return s
 
 
-# ------------------------------------------------------------------ compos DailyFaceoff
-ORDER = {"lw": 0, "c": 1, "rw": 2, "ld": 0, "rd": 1, "g": 0}
+# ------------------------------------------------------------------ compos officielles (API NHL)
+POS_ORDER = [("C", "Centres"), ("L", "Ailiers G"), ("R", "Ailiers D"), ("D", "Défenseurs")]
 
 
-def _walk(o):
-    if isinstance(o, dict):
-        if "groupIdentifier" in o and "name" in o:
-            yield o
-        for v in o.values():
-            yield from _walk(v)
-    elif isinstance(o, list):
-        for v in o:
-            yield from _walk(v)
+def official_lineups(g):
+    """Compos officielles (joueurs habillés) d'après l'API NHL.
+    Retourne {abréviation: [joueurs]} pour les 2 équipes, ou None tant que ce n'est pas publié."""
+    d = get(f"{API}/gamecenter/{g['id']}/play-by-play") or {}
+    by_team = {}
+    for s in d.get("rosterSpots") or []:
+        by_team.setdefault(s.get("teamId"), []).append(s)
+    out = {}
+    for side in ("homeTeam", "awayTeam"):
+        roster = by_team.get(g[side].get("id"), [])
+        skaters = [s for s in roster if s.get("positionCode") != "G"]
+        goalies = [s for s in roster if s.get("positionCode") == "G"]
+        # une vraie compo : ~18 patineurs + 2 gardiens (au-delà de 23 = effectif complet, pas une compo)
+        if len(skaters) < 16 or not goalies or len(roster) > 23:
+            return None
+        out[abbr(g, side)] = roster
+    return out
 
 
-def fetch_lines(team):
-    """Retourne (texte, liste_joueurs) ou None si la page est illisible."""
-    html = get(f"https://www.dailyfaceoff.com/teams/{TEAMS[team]}/line-combinations", as_text=True)
-    if not html:
-        return None
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-    if not m:
-        return None
-    try:
-        data = json.loads(m.group(1))
-    except Exception:
-        return None
-    groups, seen = {}, set()
-    for p in _walk(data):
-        grp = str(p.get("groupIdentifier", "")).lower()
-        pos = str(p.get("positionIdentifier", "")).lower()
-        key = (grp, pos, p["name"])
-        if key in seen:
-            continue
-        seen.add(key)
-        groups.setdefault(grp, []).append((ORDER.get(pos, 9), p["name"]))
-    wanted = ["f1", "f2", "f3", "f4", "d1", "d2", "d3", "g"]
-    lines, players = [], []
-    for g in wanted:
-        if g in groups:
-            names = [n for _, n in sorted(groups[g])]
-            if g == "g":
-                names = names[:1]
-                lines.append("🥅 Gardien probable : " + ", ".join(names))
-            else:
-                lines.append(f"{g.upper()} : " + " – ".join(names))
-            players += names
-    if not lines:
-        return None
-    return "\n".join(lines), players
+def _pname(s):
+    first = (s.get("firstName") or {}).get("default", "?")
+    last = (s.get("lastName") or {}).get("default", "?")
+    return f"#{s.get('sweaterNumber', '')} {first[0]}. {last}"
 
 
-def lines_message(team, new, old):
-    text, players = new
-    if old:
-        added = [p for p in players if p not in old["players"]]
-        removed = [p for p in old["players"] if p not in players]
-        head = f"🔄 <b>Compo modifiée : {team}</b>\n"
-        diff = ""
-        if added:
-            diff += "➕ " + ", ".join(esc(x) for x in added) + "\n"
-        if removed:
-            diff += "➖ " + ", ".join(esc(x) for x in removed) + "\n"
-        return head + diff + "\n" + esc(text)
-    return f"📋 <b>Compo probable : {team}</b>\n" + esc(text)
+def lineup_message(g, lu):
+    h, a = abbr(g, "homeTeam"), abbr(g, "awayTeam")
+    s = f"✅ <b>Compos officielles : {a} @ {h}</b>\n{fmt_time(g)} (heure de Paris)\n"
+    for team in (a, h):
+        s += f"\n<b>{team}</b>\n"
+        roster = lu[team]
+        for code, label in POS_ORDER:
+            ps = sorted((x for x in roster if x.get("positionCode") == code),
+                        key=lambda x: x.get("sweaterNumber") or 0)
+            if ps:
+                s += f"{label} : " + ", ".join(esc(_pname(x)) for x in ps) + "\n"
+        gs = sorted((x for x in roster if x.get("positionCode") == "G"),
+                    key=lambda x: x.get("sweaterNumber") or 0)
+        s += "🥅 Gardiens habillés : " + ", ".join(esc(_pname(x)) for x in gs) + "\n"
+    return s
 
 
 # ------------------------------------------------------------------ analyse d'un match
-def analysis(g, st):
+def analysis(g, st, dressed=None):
     h, a = abbr(g, "homeTeam"), abbr(g, "awayTeam")
     p_home, ih, ia, b2b_h, b2b_a = win_prob(g, st)
     fav = h if p_home >= 0.5 else a
@@ -303,7 +286,7 @@ def analysis(g, st):
         s += f"⚠️ {a} joue un match consécutif (fatigue).\n"
     if (ih.get("gp", 0) if ih else 0) < 10 or (ia.get("gp", 0) if ia else 0) < 10:
         s += "ℹ️ Début de saison : échantillon faible, fiabilité réduite.\n"
-    s += "\n" + form_block(a) + "\n" + form_block(h)
+    s += "\n" + form_block(a, (dressed or {}).get(a)) + "\n" + form_block(h, (dressed or {}).get(h))
     s += "\n<i>Estimation statistique, pas une certitude.</i>"
     return s
 
@@ -311,6 +294,7 @@ def analysis(g, st):
 # ------------------------------------------------------------------ commandes Telegram
 HELP = (
     "🏒 <b>Bot NHL</b>\n"
+    "Alertes automatiques : uniquement quand la compo officielle est publiée (~1 h avant le match).\n"
     "/matchs : matchs du jour\n"
     "/analyse TOR : analyse du prochain match d'une équipe\n"
     "/abonner TOR : ne suivre que certaines équipes (par défaut : toutes)\n"
@@ -393,25 +377,21 @@ def main():
             h, a = abbr(g, "homeTeam"), abbr(g, "awayTeam")
             if h not in followed and a not in followed:
                 continue
-            delta = (start_dt(g) - now).total_seconds() / 3600
-            if not (0 < delta <= WINDOW_HOURS):
-                continue
             gid = str(g["id"])
+            if gid in state["official"]:
+                continue
+            delta = (start_dt(g) - now).total_seconds() / 3600
+            if not (-WINDOW_AFTER < delta <= WINDOW_BEFORE):
+                continue
 
-            for team in (a, h):
-                new = fetch_lines(team)
-                if not new:
-                    continue
-                key = f"{gid}-{team}"
-                old = state["lines"].get(key)
-                if old and old["text"] == new[0]:
-                    continue
-                tg_send(lines_message(team, new, old))
-                state["lines"][key] = {"text": new[0], "players": new[1]}
+            lu = official_lineups(g)
+            if not lu:
+                continue  # compo pas encore officielle : on ne dit rien
 
-            if gid not in state["analysed"]:
-                tg_send(analysis(g, standings()))
-                state["analysed"].append(gid)
+            dressed = {t: {x["playerId"] for x in r} for t, r in lu.items()}
+            tg_send(lineup_message(g, lu))
+            tg_send(analysis(g, standings(), dressed))
+            state["official"].append(gid)
         except Exception as e:
             print(f"[warn] match {g.get('id')} : {e}")
 
