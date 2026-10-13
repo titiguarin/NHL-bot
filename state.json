@@ -6,7 +6,9 @@
   "2026020087",
   "2026020088",
   "2026020089",
-  "2026020090"
+  "2026020090",
+  "2026020091",
+  "2026020092"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -343,6 +345,102 @@
     "Jake Allen"
    ],
    "text": "F1 : Anthony Mantha – Jack Hughes – Jesper Bratt\nF2 : Timo Meier – Nico Hischier – Luke Evangelista\nF3 : Arseny Gritsyuk – Evan Rodrigues – Dawson Mercer\nF4 : Amadeus Lombardi – Cody Glass – Jesper Boqvist\nD1 : Luke Hughes – Brett Pesce\nD2 : Jonas Siegenthaler – Dougie Hamilton\nD3 : Brenden Dillon – Declan Chisholm\n🥅 Gardien probable : Jake Allen"
+  },
+  "2026020091-CBJ": {
+   "players": [
+    "Matthew Knies",
+    "Adam Fantilli",
+    "Kent Johnson",
+    "Valeri Nichushkin",
+    "Sean Monahan",
+    "Conor Garland",
+    "Cole Sillinger",
+    "Charlie Coyle",
+    "Mathieu Olivier",
+    "Dmitri Voronkov",
+    "Danton Heinen",
+    "Ryan Lomberg",
+    "Zach Werenski",
+    "Damon Severson",
+    "Jake Christiansen",
+    "Denton Mateychuk",
+    "Carson Soucy",
+    "Erik Gudbranson",
+    "Cam Talbot"
+   ],
+   "text": "F1 : Matthew Knies – Adam Fantilli – Kent Johnson\nF2 : Valeri Nichushkin – Sean Monahan – Conor Garland\nF3 : Cole Sillinger – Charlie Coyle – Mathieu Olivier\nF4 : Dmitri Voronkov – Danton Heinen – Ryan Lomberg\nD1 : Zach Werenski – Damon Severson\nD2 : Jake Christiansen – Denton Mateychuk\nD3 : Carson Soucy – Erik Gudbranson\n🥅 Gardien probable : Cam Talbot"
+  },
+  "2026020091-FLA": {
+   "players": [
+    "Brady Tkachuk",
+    "Sam Bennett",
+    "Matthew Tkachuk",
+    "Carter Verhaeghe",
+    "Sam Reinhart",
+    "Sam Lafferty",
+    "Eetu Luostarinen",
+    "Anton Lundell",
+    "Sandis Vilmanis",
+    "Bokondji Imama",
+    "Lars Eller",
+    "Garnet Hathaway",
+    "Gustav Forsling",
+    "Aaron Ekblad",
+    "Niko Mikkola",
+    "Seth Jones",
+    "Radko Gudas",
+    "Dmitry Kulikov",
+    "Akira Schmid"
+   ],
+   "text": "F1 : Brady Tkachuk – Sam Bennett – Matthew Tkachuk\nF2 : Carter Verhaeghe – Sam Reinhart – Sam Lafferty\nF3 : Eetu Luostarinen – Anton Lundell – Sandis Vilmanis\nF4 : Bokondji Imama – Lars Eller – Garnet Hathaway\nD1 : Gustav Forsling – Aaron Ekblad\nD2 : Niko Mikkola – Seth Jones\nD3 : Radko Gudas – Dmitry Kulikov\n🥅 Gardien probable : Akira Schmid"
+  },
+  "2026020092-BUF": {
+   "players": [
+    "Peyton Krebs",
+    "Tage Thompson",
+    "Josh Doan",
+    "Zach Benson",
+    "Noah Ostlund",
+    "Jack Quinn",
+    "Jiri Kulich",
+    "Ryan McLeod",
+    "Konsta Helenius",
+    "Tyson Kozak",
+    "Josh Norris",
+    "Beck Malenstyn",
+    "Mattias Samuelsson",
+    "Rasmus Dahlin",
+    "Owen Power",
+    "Zach Metsa",
+    "Olen Zellweger",
+    "Louis Crevier",
+    "Colten Ellis"
+   ],
+   "text": "F1 : Peyton Krebs – Tage Thompson – Josh Doan\nF2 : Zach Benson – Noah Ostlund – Jack Quinn\nF3 : Jiri Kulich – Ryan McLeod – Konsta Helenius\nF4 : Tyson Kozak – Josh Norris – Beck Malenstyn\nD1 : Mattias Samuelsson – Rasmus Dahlin\nD2 : Owen Power – Zach Metsa\nD3 : Olen Zellweger – Louis Crevier\n🥅 Gardien probable : Colten Ellis"
+  },
+  "2026020092-MTL": {
+   "players": [
+    "Cole Caufield",
+    "Nick Suzuki",
+    "Juraj Slafkovsky",
+    "Chris Kreider",
+    "Alex Newhook",
+    "Josh Anderson",
+    "Zack Bolduc",
+    "Phillip Danault",
+    "Alexandre Texier",
+    "Owen Beck",
+    "Jake Evans",
+    "Kirby Dach",
+    "Lane Hutson",
+    "Noah Dobson",
+    "Kaiden Guhle",
+    "Alexandre Carrier",
+    "Adam Engstrom",
+    "Arber Xhekaj",
+    "Jacob Fowler"
+   ],
+   "text": "F1 : Cole Caufield – Nick Suzuki – Juraj Slafkovsky\nF2 : Chris Kreider – Alex Newhook – Josh Anderson\nF3 : Zack Bolduc – Phillip Danault – Alexandre Texier\nF4 : Owen Beck – Jake Evans – Kirby Dach\nD1 : Lane Hutson – Noah Dobson\nD2 : Kaiden Guhle – Alexandre Carrier\nD3 : Adam Engstrom – Arber Xhekaj\n🥅 Gardien probable : Jacob Fowler"
   }
  },
  "offset": 265304001,
