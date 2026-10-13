@@ -8,7 +8,8 @@
   "2026020089",
   "2026020090",
   "2026020091",
-  "2026020092"
+  "2026020092",
+  "2026020093"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -310,6 +311,7 @@
     "Michael Rasmussen",
     "Andrew Copp",
     "Keegan Kolesar",
+    "Sheldon Dries",
     "Nate Danielson",
     "Carter Mazur",
     "Ben Chiarot",
@@ -320,7 +322,7 @@
     "Justin Faulk",
     "Daniil Tarasov"
    ],
-   "text": "F1 : Viktor Arvidsson – Dylan Larkin – Lucas Raymond\nF2 : Alex DeBrincat – Emmitt Finnie – Michael Brandsegg-Nygård\nF3 : Michael Rasmussen – Andrew Copp – Keegan Kolesar\nF4 : Nate Danielson – Carter Mazur\nD1 : Ben Chiarot – Moritz Seider\nD2 : Albert Johansson – Anton Johansson\nD3 : William Wallinder – Justin Faulk\n🥅 Gardien probable : Daniil Tarasov"
+   "text": "F1 : Viktor Arvidsson – Dylan Larkin – Lucas Raymond\nF2 : Alex DeBrincat – Emmitt Finnie – Michael Brandsegg-Nygård\nF3 : Michael Rasmussen – Andrew Copp – Keegan Kolesar\nF4 : Sheldon Dries – Nate Danielson – Carter Mazur\nD1 : Ben Chiarot – Moritz Seider\nD2 : Albert Johansson – Anton Johansson\nD3 : William Wallinder – Justin Faulk\n🥅 Gardien probable : Daniil Tarasov"
   },
   "2026020090-NJD": {
    "players": [
@@ -441,6 +443,54 @@
     "Jacob Fowler"
    ],
    "text": "F1 : Cole Caufield – Nick Suzuki – Juraj Slafkovsky\nF2 : Chris Kreider – Alex Newhook – Josh Anderson\nF3 : Zack Bolduc – Phillip Danault – Alexandre Texier\nF4 : Owen Beck – Jake Evans – Kirby Dach\nD1 : Lane Hutson – Noah Dobson\nD2 : Kaiden Guhle – Alexandre Carrier\nD3 : Adam Engstrom – Arber Xhekaj\n🥅 Gardien probable : Jacob Fowler"
+  },
+  "2026020093-CAR": {
+   "players": [
+    "William Carrier",
+    "Sebastian Aho",
+    "Andrei Svechnikov",
+    "Taylor Hall",
+    "Logan Stankoven",
+    "Jackson Blake",
+    "Nikolaj Ehlers",
+    "Mark Jankowski",
+    "Jordan Martinook",
+    "Eric Robinson",
+    "Jesperi Kotkaniemi",
+    "Nicolas Deslauriers",
+    "Jaccob Slavin",
+    "Jalen Chatfield",
+    "K'Andre Miller",
+    "Sean Walker",
+    "Shayne Gostisbehere",
+    "Mike Reilly",
+    "Brandon Bussi"
+   ],
+   "text": "F1 : William Carrier – Sebastian Aho – Andrei Svechnikov\nF2 : Taylor Hall – Logan Stankoven – Jackson Blake\nF3 : Nikolaj Ehlers – Mark Jankowski – Jordan Martinook\nF4 : Eric Robinson – Jesperi Kotkaniemi – Nicolas Deslauriers\nD1 : Jaccob Slavin – Jalen Chatfield\nD2 : K'Andre Miller – Sean Walker\nD3 : Shayne Gostisbehere – Mike Reilly\n🥅 Gardien probable : Brandon Bussi"
+  },
+  "2026020093-WSH": {
+   "players": [
+    "Alex Ovechkin",
+    "Ilya Protas",
+    "Aliaksei Protas",
+    "Alex Tuch",
+    "Dylan Strome",
+    "Tom Wilson",
+    "Ryan Leonard",
+    "Boone Jenner",
+    "Jordan Kyrou",
+    "Ethen Frank",
+    "Justin Sourdif",
+    "Anthony Beauvillier",
+    "Jakob Chychrun",
+    "Timothy Liljegren",
+    "Martin Fehervary",
+    "Vincent Desharnais",
+    "Cole Hutson",
+    "Dylan McIlrath",
+    "Charlie Lindgren"
+   ],
+   "text": "F1 : Alex Ovechkin – Ilya Protas – Aliaksei Protas\nF2 : Alex Tuch – Dylan Strome – Tom Wilson\nF3 : Ryan Leonard – Boone Jenner – Jordan Kyrou\nF4 : Ethen Frank – Justin Sourdif – Anthony Beauvillier\nD1 : Jakob Chychrun – Timothy Liljegren\nD2 : Martin Fehervary – Vincent Desharnais\nD3 : Cole Hutson – Dylan McIlrath\n🥅 Gardien probable : Charlie Lindgren"
   }
  },
  "offset": 265304001,
