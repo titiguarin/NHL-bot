@@ -9,7 +9,9 @@
   "2026020090",
   "2026020091",
   "2026020092",
-  "2026020093"
+  "2026020093",
+  "2026020094",
+  "2026020095"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -491,6 +493,101 @@
     "Charlie Lindgren"
    ],
    "text": "F1 : Alex Ovechkin – Ilya Protas – Aliaksei Protas\nF2 : Alex Tuch – Dylan Strome – Tom Wilson\nF3 : Ryan Leonard – Boone Jenner – Jordan Kyrou\nF4 : Ethen Frank – Justin Sourdif – Anthony Beauvillier\nD1 : Jakob Chychrun – Timothy Liljegren\nD2 : Martin Fehervary – Vincent Desharnais\nD3 : Cole Hutson – Dylan McIlrath\n🥅 Gardien probable : Charlie Lindgren"
+  },
+  "2026020094-PHI": {
+   "players": [
+    "Porter Martone",
+    "Noah Cates",
+    "Matvei Michkov",
+    "Trevor Zegras",
+    "Sean Couturier",
+    "Owen Tippett",
+    "Denver Barkey",
+    "Christian Dvorak",
+    "Tyson Foerster",
+    "Michael Bunting",
+    "Jack Studnicka",
+    "Noel Acciari",
+    "Travis Sanheim",
+    "Oliver Bonk",
+    "Nick Seeler",
+    "Jamie Drysdale",
+    "Simon Benoit",
+    "David Jiricek",
+    "Dan Vladar"
+   ],
+   "text": "F1 : Porter Martone – Noah Cates – Matvei Michkov\nF2 : Trevor Zegras – Sean Couturier – Owen Tippett\nF3 : Denver Barkey – Christian Dvorak – Tyson Foerster\nF4 : Michael Bunting – Jack Studnicka – Noel Acciari\nD1 : Travis Sanheim – Oliver Bonk\nD2 : Nick Seeler – Jamie Drysdale\nD3 : Simon Benoit – David Jiricek\n🥅 Gardien probable : Dan Vladar"
+  },
+  "2026020094-SEA": {
+   "players": [
+    "Jared McCann",
+    "Matty Beniers",
+    "Mackie Samoskevich",
+    "Bobby McMann",
+    "Chandler Stephenson",
+    "Jordan Eberle",
+    "Kaapo Kakko",
+    "Berkly Catton",
+    "Shane Wright",
+    "Ben Meyers",
+    "Frederick Gaudreau",
+    "Ryan Winterton",
+    "Vince Dunn",
+    "Adam Larsson",
+    "Ryker Evans",
+    "Brandon Montour",
+    "Joshua Mahura",
+    "Ville Ottavainen",
+    "Joey Daccord"
+   ],
+   "text": "F1 : Jared McCann – Matty Beniers – Mackie Samoskevich\nF2 : Bobby McMann – Chandler Stephenson – Jordan Eberle\nF3 : Kaapo Kakko – Berkly Catton – Shane Wright\nF4 : Ben Meyers – Frederick Gaudreau – Ryan Winterton\nD1 : Vince Dunn – Adam Larsson\nD2 : Ryker Evans – Brandon Montour\nD3 : Joshua Mahura – Ville Ottavainen\n🥅 Gardien probable : Joey Daccord"
+  },
+  "2026020095-NYR": {
+   "players": [
+    "Gabriel Perreault",
+    "Mika Zibanejad",
+    "Pavel Dorofeyev",
+    "Tye Kartye",
+    "J.T. Miller",
+    "Alexis Lafrenière",
+    "Will Cuylle",
+    "Noah Laba",
+    "Eeli Tolvanen",
+    "Oliver Bjorkstrand",
+    "Cole Beaudoin",
+    "Matt Rempe",
+    "Vladislav Gavrikov",
+    "Adam Fox",
+    "Marcus Pettersson",
+    "Sean Durzi",
+    "Alberts Smits",
+    "Braden Schneider",
+    "Dylan Garand"
+   ],
+   "text": "F1 : Gabriel Perreault – Mika Zibanejad – Pavel Dorofeyev\nF2 : Tye Kartye – J.T. Miller – Alexis Lafrenière\nF3 : Will Cuylle – Noah Laba – Eeli Tolvanen\nF4 : Oliver Bjorkstrand – Cole Beaudoin – Matt Rempe\nD1 : Vladislav Gavrikov – Adam Fox\nD2 : Marcus Pettersson – Sean Durzi\nD3 : Alberts Smits – Braden Schneider\n🥅 Gardien probable : Dylan Garand"
+  },
+  "2026020095-TBL": {
+   "players": [
+    "Gage Goncalves",
+    "Brayden Point",
+    "Nikita Kucherov",
+    "Brandon Hagel",
+    "Anthony Cirelli",
+    "Jake Guentzel",
+    "Ilya Mikheyev",
+    "Zemgus Girgensons",
+    "Pontus Holmberg",
+    "Jeffrey Viel",
+    "Conor Geekie",
+    "J.J. Moser",
+    "John Carlson",
+    "Ryan McDonagh",
+    "Erik Cernak",
+    "Victor Hedman",
+    "Maxwell Crozier",
+    "Andrei Vasilevskiy"
+   ],
+   "text": "F1 : Gage Goncalves – Brayden Point – Nikita Kucherov\nF2 : Brandon Hagel – Anthony Cirelli – Jake Guentzel\nF3 : Ilya Mikheyev – Zemgus Girgensons – Pontus Holmberg\nF4 : Jeffrey Viel – Conor Geekie\nD1 : J.J. Moser – John Carlson\nD2 : Ryan McDonagh – Erik Cernak\nD3 : Victor Hedman – Maxwell Crozier\n🥅 Gardien probable : Andrei Vasilevskiy"
   }
  },
  "offset": 265304001,
