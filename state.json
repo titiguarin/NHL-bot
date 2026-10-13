@@ -18,7 +18,8 @@
   "2026020099",
   "2026020100",
   "2026020101",
-  "2026020102"
+  "2026020102",
+  "2026020103"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -931,6 +932,54 @@
     "Karel Vejmelka"
    ],
    "text": "F1 : Clayton Keller – Nick Schmaltz – Lawson Crouse\nF2 : Kailer Yamamoto – Logan Cooley – Dylan Guenther\nF3 : Barrett Hayton – Vincent Trocheck – Anders Lee\nF4 : Jack McBain – Kevin Stenlund – Daniil But\nD1 : Mikhail Sergachev – MacKenzie Weegar\nD2 : Nate Schmidt – John Marino\nD3 : Dmitri Simashev – Andrew Peeke\n🥅 Gardien probable : Karel Vejmelka"
+  },
+  "2026020103-ANA": {
+   "players": [
+    "Alex Killorn",
+    "Leo Carlsson",
+    "Beckett Sennecke",
+    "Nikita Nesterenko",
+    "Mikael Granlund",
+    "Sam Colangelo",
+    "Frank Vatrano",
+    "Roger McQueen",
+    "A.J. Greer",
+    "Jeff Malott",
+    "Tim Washe",
+    "Judd Caulfield",
+    "Jackson Lacombe",
+    "Noah Warren",
+    "Pavel Mintyukov",
+    "Drew Helleson",
+    "Tyson Hinds",
+    "Tristan Luneau",
+    "Lukas Dostal"
+   ],
+   "text": "F1 : Alex Killorn – Leo Carlsson – Beckett Sennecke\nF2 : Nikita Nesterenko – Mikael Granlund – Sam Colangelo\nF3 : Frank Vatrano – Roger McQueen – A.J. Greer\nF4 : Jeff Malott – Tim Washe – Judd Caulfield\nD1 : Jackson Lacombe – Noah Warren\nD2 : Pavel Mintyukov – Drew Helleson\nD3 : Tyson Hinds – Tristan Luneau\n🥅 Gardien probable : Lukas Dostal"
+  },
+  "2026020103-CGY": {
+   "players": [
+    "Yegor Sharangovich",
+    "Mikael Backlund",
+    "Joel Farabee",
+    "Aydar Suniev",
+    "Morgan Frost",
+    "Matt Coronato",
+    "Matvei Gridin",
+    "Martin Pospisil",
+    "Ryan Strome",
+    "Maxim Tsyplakov",
+    "Jonathan Castagna",
+    "Adam Klapka",
+    "Kevin Bahl",
+    "Simon Nemec",
+    "Yan Kuznetsov",
+    "Zach Whitecloud",
+    "Jacob Middleton",
+    "Zayne Parekh",
+    "Devin Cooley"
+   ],
+   "text": "F1 : Yegor Sharangovich – Mikael Backlund – Joel Farabee\nF2 : Aydar Suniev – Morgan Frost – Matt Coronato\nF3 : Matvei Gridin – Martin Pospisil – Ryan Strome\nF4 : Maxim Tsyplakov – Jonathan Castagna – Adam Klapka\nD1 : Kevin Bahl – Simon Nemec\nD2 : Yan Kuznetsov – Zach Whitecloud\nD3 : Jacob Middleton – Zayne Parekh\n🥅 Gardien probable : Devin Cooley"
   }
  },
  "offset": 265304001,
