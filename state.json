@@ -19,7 +19,8 @@
   "2026020100",
   "2026020101",
   "2026020102",
-  "2026020103"
+  "2026020103",
+  "2026020104"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -980,6 +981,54 @@
     "Devin Cooley"
    ],
    "text": "F1 : Yegor Sharangovich – Mikael Backlund – Joel Farabee\nF2 : Aydar Suniev – Morgan Frost – Matt Coronato\nF3 : Matvei Gridin – Martin Pospisil – Ryan Strome\nF4 : Maxim Tsyplakov – Jonathan Castagna – Adam Klapka\nD1 : Kevin Bahl – Simon Nemec\nD2 : Yan Kuznetsov – Zach Whitecloud\nD3 : Jacob Middleton – Zayne Parekh\n🥅 Gardien probable : Devin Cooley"
+  },
+  "2026020104-EDM": {
+   "players": [
+    "Vasily Podkolzin",
+    "Connor McDavid",
+    "Leon Draisaitl",
+    "Filip Hallander",
+    "Jason Dickinson",
+    "Kasperi Kapanen",
+    "Alex Formenton",
+    "Owen Michaels",
+    "Mathieu Joseph",
+    "Trent Frederic",
+    "Josh Samanski",
+    "Isaac Howard",
+    "Mattias Ekholm",
+    "Evan Bouchard",
+    "Ryan Shea",
+    "Connor Murphy",
+    "Shakir Mukhamadullin",
+    "Ty Emberson",
+    "Devon Levi"
+   ],
+   "text": "F1 : Vasily Podkolzin – Connor McDavid – Leon Draisaitl\nF2 : Filip Hallander – Jason Dickinson – Kasperi Kapanen\nF3 : Alex Formenton – Owen Michaels – Mathieu Joseph\nF4 : Trent Frederic – Josh Samanski – Isaac Howard\nD1 : Mattias Ekholm – Evan Bouchard\nD2 : Ryan Shea – Connor Murphy\nD3 : Shakir Mukhamadullin – Ty Emberson\n🥅 Gardien probable : Devon Levi"
+  },
+  "2026020104-LAK": {
+   "players": [
+    "Artemi Panarin",
+    "Quinton Byfield",
+    "Adrian Kempe",
+    "Trevor Moore",
+    "Erik Haula",
+    "Alex Laferriere",
+    "Joel Armia",
+    "Scott Laughton",
+    "Jared Wright",
+    "Andre Lee",
+    "Samuel Helenius",
+    "Corey Perry",
+    "Joel Edmundson",
+    "Brandt Clarke",
+    "Brian Dumoulin",
+    "Drew Doughty",
+    "Mikey Anderson",
+    "Cody Ceci",
+    "Anton Forsberg"
+   ],
+   "text": "F1 : Artemi Panarin – Quinton Byfield – Adrian Kempe\nF2 : Trevor Moore – Erik Haula – Alex Laferriere\nF3 : Joel Armia – Scott Laughton – Jared Wright\nF4 : Andre Lee – Samuel Helenius – Corey Perry\nD1 : Joel Edmundson – Brandt Clarke\nD2 : Brian Dumoulin – Drew Doughty\nD3 : Mikey Anderson – Cody Ceci\n🥅 Gardien probable : Anton Forsberg"
   }
  },
  "offset": 265304001,
