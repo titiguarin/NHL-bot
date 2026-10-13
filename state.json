@@ -17,7 +17,8 @@
   "2026020098",
   "2026020099",
   "2026020100",
-  "2026020101"
+  "2026020101",
+  "2026020102"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -802,14 +803,14 @@
     "Nicolas Roy",
     "Parker Kelly",
     "Devon Toews",
-    "Cale Makar",
-    "Brett Kulak",
     "Sam Malinski",
     "Josh Manson",
     "Brent Burns",
+    "Brett Kulak",
+    "Noah Juulsen",
     "Mackenzie Blackwood"
    ],
-   "text": "F1 : Artturi Lehkonen – Nathan MacKinnon – Martin Necas\nF2 : Gabriel Landeskog – Brock Nelson – Nazem Kadri\nF3 : Jaden Schwartz – Fedor Svechkov – T.J. Hughes\nF4 : Zachary L'Heureux – Nicolas Roy – Parker Kelly\nD1 : Devon Toews – Cale Makar\nD2 : Brett Kulak – Sam Malinski\nD3 : Josh Manson – Brent Burns\n🥅 Gardien probable : Mackenzie Blackwood"
+   "text": "F1 : Artturi Lehkonen – Nathan MacKinnon – Martin Necas\nF2 : Gabriel Landeskog – Brock Nelson – Nazem Kadri\nF3 : Jaden Schwartz – Fedor Svechkov – T.J. Hughes\nF4 : Zachary L'Heureux – Nicolas Roy – Parker Kelly\nD1 : Devon Toews – Sam Malinski\nD2 : Josh Manson – Brent Burns\nD3 : Brett Kulak – Noah Juulsen\n🥅 Gardien probable : Mackenzie Blackwood"
   },
   "2026020100-DAL": {
    "players": [
@@ -882,6 +883,54 @@
     "Adin Hill"
    ],
    "text": "F1 : Ivan Barbashev – Jack Eichel – Mark Stone\nF2 : Brett Howden – William Karlsson – Mitch Marner\nF3 : Trevor Connelly – Tomas Hertl – Raphael Lavoie\nF4 : Braeden Bowman – Nic Dowd – Marc Gatcomb\nD1 : Brayden McNabb – Shea Theodore\nD2 : Noah Hanifin – Rasmus Andersson\nD3 : Jeremy Lauzon – Dylan Coghlan\n🥅 Gardien probable : Adin Hill"
+  },
+  "2026020102-TOR": {
+   "players": [
+    "Kirill Marchenko",
+    "Auston Matthews",
+    "Jack Roslovic",
+    "Easton Cowan",
+    "John Tavares",
+    "William Nylander",
+    "Gavin McKenna",
+    "Nick Paul",
+    "Colton Sissons",
+    "Brandon Duhaime",
+    "Teddy Blueger",
+    "Bo Groulx",
+    "Jake McCabe",
+    "Darren Raddysh",
+    "Morgan Rielly",
+    "Troy Stecher",
+    "Oliver Ekman-Larsson",
+    "Nick Blankenburg",
+    "Anthony Stolarz"
+   ],
+   "text": "F1 : Kirill Marchenko – Auston Matthews – Jack Roslovic\nF2 : Easton Cowan – John Tavares – William Nylander\nF3 : Gavin McKenna – Nick Paul – Colton Sissons\nF4 : Brandon Duhaime – Teddy Blueger – Bo Groulx\nD1 : Jake McCabe – Darren Raddysh\nD2 : Morgan Rielly – Troy Stecher\nD3 : Oliver Ekman-Larsson – Nick Blankenburg\n🥅 Gardien probable : Anthony Stolarz"
+  },
+  "2026020102-UTA": {
+   "players": [
+    "Clayton Keller",
+    "Nick Schmaltz",
+    "Lawson Crouse",
+    "Kailer Yamamoto",
+    "Logan Cooley",
+    "Dylan Guenther",
+    "Barrett Hayton",
+    "Vincent Trocheck",
+    "Anders Lee",
+    "Jack McBain",
+    "Kevin Stenlund",
+    "Daniil But",
+    "Mikhail Sergachev",
+    "MacKenzie Weegar",
+    "Nate Schmidt",
+    "John Marino",
+    "Dmitri Simashev",
+    "Andrew Peeke",
+    "Karel Vejmelka"
+   ],
+   "text": "F1 : Clayton Keller – Nick Schmaltz – Lawson Crouse\nF2 : Kailer Yamamoto – Logan Cooley – Dylan Guenther\nF3 : Barrett Hayton – Vincent Trocheck – Anders Lee\nF4 : Jack McBain – Kevin Stenlund – Daniil But\nD1 : Mikhail Sergachev – MacKenzie Weegar\nD2 : Nate Schmidt – John Marino\nD3 : Dmitri Simashev – Andrew Peeke\n🥅 Gardien probable : Karel Vejmelka"
   }
  },
  "offset": 265304001,
