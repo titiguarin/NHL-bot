@@ -16,7 +16,8 @@
   "2026020097",
   "2026020098",
   "2026020099",
-  "2026020100"
+  "2026020100",
+  "2026020101"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -833,6 +834,54 @@
     "Casey DeSmith"
    ],
    "text": "F1 : Sam Steel – Wyatt Johnston – Mikko Rantanen\nF2 : Jason Robertson – Roope Hintz – Jamie Benn\nF3 : Justin Hryckowian – Arttu Hyry – Tyler Seguin\nF4 : Oskar Back – Radek Faksa – Colin Blackwell\nD1 : Esa Lindell – Miro Heiskanen\nD2 : Thomas Harley – Nils Lundkvist\nD3 : Lian Bichsel – Tyler Myers\n🥅 Gardien probable : Casey DeSmith"
+  },
+  "2026020101-NSH": {
+   "players": [
+    "Steven Stamkos",
+    "Ryan O'Reilly",
+    "Jonathan Marchessault",
+    "Filip Forsberg",
+    "Matthew Wood",
+    "Nils Hoglander",
+    "Ross Colton",
+    "Vitali Pinchuk",
+    "Alex Kerfoot",
+    "Reid Schaefer",
+    "Jack Drury",
+    "Adam Edstrom",
+    "Nicolas Hague",
+    "Roman Josi",
+    "Brady Skjei",
+    "Nick Perbix",
+    "Jayden Struble",
+    "Adam Wilsby",
+    "Juuse Saros"
+   ],
+   "text": "F1 : Steven Stamkos – Ryan O'Reilly – Jonathan Marchessault\nF2 : Filip Forsberg – Matthew Wood – Nils Hoglander\nF3 : Ross Colton – Vitali Pinchuk – Alex Kerfoot\nF4 : Reid Schaefer – Jack Drury – Adam Edstrom\nD1 : Nicolas Hague – Roman Josi\nD2 : Brady Skjei – Nick Perbix\nD3 : Jayden Struble – Adam Wilsby\n🥅 Gardien probable : Juuse Saros"
+  },
+  "2026020101-VGK": {
+   "players": [
+    "Ivan Barbashev",
+    "Jack Eichel",
+    "Mark Stone",
+    "Brett Howden",
+    "William Karlsson",
+    "Mitch Marner",
+    "Trevor Connelly",
+    "Tomas Hertl",
+    "Raphael Lavoie",
+    "Braeden Bowman",
+    "Nic Dowd",
+    "Marc Gatcomb",
+    "Brayden McNabb",
+    "Shea Theodore",
+    "Noah Hanifin",
+    "Rasmus Andersson",
+    "Jeremy Lauzon",
+    "Dylan Coghlan",
+    "Adin Hill"
+   ],
+   "text": "F1 : Ivan Barbashev – Jack Eichel – Mark Stone\nF2 : Brett Howden – William Karlsson – Mitch Marner\nF3 : Trevor Connelly – Tomas Hertl – Raphael Lavoie\nF4 : Braeden Bowman – Nic Dowd – Marc Gatcomb\nD1 : Brayden McNabb – Shea Theodore\nD2 : Noah Hanifin – Rasmus Andersson\nD3 : Jeremy Lauzon – Dylan Coghlan\n🥅 Gardien probable : Adin Hill"
   }
  },
  "offset": 265304001,
