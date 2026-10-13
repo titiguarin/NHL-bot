@@ -12,7 +12,9 @@
   "2026020093",
   "2026020094",
   "2026020095",
-  "2026020096"
+  "2026020096",
+  "2026020097",
+  "2026020098"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -537,11 +539,11 @@
     "Adam Larsson",
     "Ryker Evans",
     "Brandon Montour",
-    "Joshua Mahura",
     "Ville Ottavainen",
+    "Joshua Mahura",
     "Joey Daccord"
    ],
-   "text": "F1 : Jared McCann – Matty Beniers – Mackie Samoskevich\nF2 : Bobby McMann – Chandler Stephenson – Jordan Eberle\nF3 : Kaapo Kakko – Berkly Catton – Shane Wright\nF4 : Ben Meyers – Frederick Gaudreau – Ryan Winterton\nD1 : Vince Dunn – Adam Larsson\nD2 : Ryker Evans – Brandon Montour\nD3 : Joshua Mahura – Ville Ottavainen\n🥅 Gardien probable : Joey Daccord"
+   "text": "F1 : Jared McCann – Matty Beniers – Mackie Samoskevich\nF2 : Bobby McMann – Chandler Stephenson – Jordan Eberle\nF3 : Kaapo Kakko – Berkly Catton – Shane Wright\nF4 : Ben Meyers – Frederick Gaudreau – Ryan Winterton\nD1 : Vince Dunn – Adam Larsson\nD2 : Ryker Evans – Brandon Montour\nD3 : Ville Ottavainen – Joshua Mahura\n🥅 Gardien probable : Joey Daccord"
   },
   "2026020095-NYR": {
    "players": [
@@ -637,6 +639,102 @@
     "Joel Hofer"
    ],
    "text": "F1 : Dylan Holloway – Robert Thomas – Jimmy Snuggerud\nF2 : Connor McMichael – Mason McTavish – Jonatan Berggren\nF3 : Jake Neighbours – Dalibor Dvorsky – Pavel Buchnevich\nF4 : Ross Johnston – Pius Suter – Dylan Peterson\nD1 : Philip Broberg – Adam Jiříček\nD2 : Justin Barron – Colton Parayko\nD3 : Cam Fowler – Brandon Carlo\n🥅 Gardien probable : Joel Hofer"
+  },
+  "2026020097-NYI": {
+   "players": [
+    "Emil Heineman",
+    "Bo Horvat",
+    "Kyle Palmieri",
+    "Brayden Schenn",
+    "Calum Ritchie",
+    "Victor Eklund",
+    "Simon Holmstrom",
+    "Jean-Gabriel Pageau",
+    "Anthony Duclair",
+    "Ondrej Palat",
+    "Casey Cizikas",
+    "Matias Maccelli",
+    "Logan Stanley",
+    "Matthew Schaefer",
+    "Adam Pelech",
+    "Ryan Pulock",
+    "Tony DeAngelo",
+    "Scott Mayfield",
+    "Ilya Sorokin"
+   ],
+   "text": "F1 : Emil Heineman – Bo Horvat – Kyle Palmieri\nF2 : Brayden Schenn – Calum Ritchie – Victor Eklund\nF3 : Simon Holmstrom – Jean-Gabriel Pageau – Anthony Duclair\nF4 : Ondrej Palat – Casey Cizikas – Matias Maccelli\nD1 : Logan Stanley – Matthew Schaefer\nD2 : Adam Pelech – Ryan Pulock\nD3 : Tony DeAngelo – Scott Mayfield\n🥅 Gardien probable : Ilya Sorokin"
+  },
+  "2026020097-VAN": {
+   "players": [
+    "Jake DeBrusk",
+    "Elias Pettersson",
+    "Jonathan Lekkerimaki",
+    "Paul Cotter",
+    "Marco Rossi",
+    "Linus Karlsson",
+    "Liam Ohgren",
+    "Drew O'Connor",
+    "Brock Boeser",
+    "Arshdeep Bains",
+    "Max Sasson",
+    "Brendan Gallagher",
+    "Elias Nils Pettersson",
+    "Filip Hronek",
+    "Jamie Oleksiak",
+    "Tom Willander",
+    "Zeev Buium",
+    "Luke Schenn",
+    "Kevin Lankinen"
+   ],
+   "text": "F1 : Jake DeBrusk – Elias Pettersson – Jonathan Lekkerimaki\nF2 : Paul Cotter – Marco Rossi – Linus Karlsson\nF3 : Liam Ohgren – Drew O'Connor – Brock Boeser\nF4 : Arshdeep Bains – Max Sasson – Brendan Gallagher\nD1 : Elias Nils Pettersson – Filip Hronek\nD2 : Jamie Oleksiak – Tom Willander\nD3 : Zeev Buium – Luke Schenn\n🥅 Gardien probable : Kevin Lankinen"
+  },
+  "2026020098-CHI": {
+   "players": [
+    "Roman Kantserov",
+    "Connor Bedard",
+    "Patrick Kane",
+    "Tyler Bertuzzi",
+    "Anton Frondell",
+    "Teuvo Teravainen",
+    "Cole Smith",
+    "Ryan Greene",
+    "Jordan Greenway",
+    "Oliver Moore",
+    "Dominic Toninato",
+    "Ryan Donato",
+    "Bowen Byram",
+    "Artyom Levshunov",
+    "Alex Vlasic",
+    "Ian Cole",
+    "Wyatt Kaiser",
+    "Sam Rinzel",
+    "Arvid Soderblom"
+   ],
+   "text": "F1 : Roman Kantserov – Connor Bedard – Patrick Kane\nF2 : Tyler Bertuzzi – Anton Frondell – Teuvo Teravainen\nF3 : Cole Smith – Ryan Greene – Jordan Greenway\nF4 : Oliver Moore – Dominic Toninato – Ryan Donato\nD1 : Bowen Byram – Artyom Levshunov\nD2 : Alex Vlasic – Ian Cole\nD3 : Wyatt Kaiser – Sam Rinzel\n🥅 Gardien probable : Arvid Soderblom"
+  },
+  "2026020098-PIT": {
+   "players": [
+    "Rickard Rakell",
+    "Sidney Crosby",
+    "Bryan Rust",
+    "Egor Chinakhov",
+    "Tommy Novak",
+    "Evgeni Malkin",
+    "Andrei Kuzmenko",
+    "Ben Kindel",
+    "Ville Koivunen",
+    "Connor Dewar",
+    "Blake Lizotte",
+    "Nicholas Robertson",
+    "Declan Carlile",
+    "Erik Karlsson",
+    "Samuel Girard",
+    "Kaedan Korczak",
+    "Spencer Stastney",
+    "Kris Letang",
+    "Arturs Silovs"
+   ],
+   "text": "F1 : Rickard Rakell – Sidney Crosby – Bryan Rust\nF2 : Egor Chinakhov – Tommy Novak – Evgeni Malkin\nF3 : Andrei Kuzmenko – Ben Kindel – Ville Koivunen\nF4 : Connor Dewar – Blake Lizotte – Nicholas Robertson\nD1 : Declan Carlile – Erik Karlsson\nD2 : Samuel Girard – Kaedan Korczak\nD3 : Spencer Stastney – Kris Letang\n🥅 Gardien probable : Arturs Silovs"
   }
  },
  "offset": 265304001,
