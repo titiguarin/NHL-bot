@@ -14,7 +14,9 @@
   "2026020095",
   "2026020096",
   "2026020097",
-  "2026020098"
+  "2026020098",
+  "2026020099",
+  "2026020100"
  ],
  "lines": {
   "2026020084-SEA": {
@@ -475,12 +477,12 @@
   },
   "2026020093-WSH": {
    "players": [
-    "Alex Ovechkin",
-    "Ilya Protas",
-    "Aliaksei Protas",
     "Alex Tuch",
     "Dylan Strome",
     "Tom Wilson",
+    "Aliaksei Protas",
+    "Ilya Protas",
+    "Alex Ovechkin",
     "Ryan Leonard",
     "Boone Jenner",
     "Jordan Kyrou",
@@ -492,10 +494,10 @@
     "Martin Fehervary",
     "Vincent Desharnais",
     "Cole Hutson",
-    "Dylan McIlrath",
+    "Justin Holl",
     "Charlie Lindgren"
    ],
-   "text": "F1 : Alex Ovechkin – Ilya Protas – Aliaksei Protas\nF2 : Alex Tuch – Dylan Strome – Tom Wilson\nF3 : Ryan Leonard – Boone Jenner – Jordan Kyrou\nF4 : Ethen Frank – Justin Sourdif – Anthony Beauvillier\nD1 : Jakob Chychrun – Timothy Liljegren\nD2 : Martin Fehervary – Vincent Desharnais\nD3 : Cole Hutson – Dylan McIlrath\n🥅 Gardien probable : Charlie Lindgren"
+   "text": "F1 : Alex Tuch – Dylan Strome – Tom Wilson\nF2 : Aliaksei Protas – Ilya Protas – Alex Ovechkin\nF3 : Ryan Leonard – Boone Jenner – Jordan Kyrou\nF4 : Ethen Frank – Justin Sourdif – Anthony Beauvillier\nD1 : Jakob Chychrun – Timothy Liljegren\nD2 : Martin Fehervary – Vincent Desharnais\nD3 : Cole Hutson – Justin Holl\n🥅 Gardien probable : Charlie Lindgren"
   },
   "2026020094-PHI": {
    "players": [
@@ -735,6 +737,102 @@
     "Arturs Silovs"
    ],
    "text": "F1 : Rickard Rakell – Sidney Crosby – Bryan Rust\nF2 : Egor Chinakhov – Tommy Novak – Evgeni Malkin\nF3 : Andrei Kuzmenko – Ben Kindel – Ville Koivunen\nF4 : Connor Dewar – Blake Lizotte – Nicholas Robertson\nD1 : Declan Carlile – Erik Karlsson\nD2 : Samuel Girard – Kaedan Korczak\nD3 : Spencer Stastney – Kris Letang\n🥅 Gardien probable : Arturs Silovs"
+  },
+  "2026020099-MIN": {
+   "players": [
+    "Kirill Kaprizov",
+    "Joel Eriksson Ek",
+    "Matt Boldy",
+    "Blake Coleman",
+    "Ryan Hartman",
+    "Maxim Shabanov",
+    "Rieger Lorenz",
+    "Danila Yurov",
+    "Bobby Brink",
+    "Nico Sturm",
+    "Michael McCarron",
+    "Yakov Trenin",
+    "Quinn Hughes",
+    "Jared Spurgeon",
+    "Olli Maatta",
+    "Jonas Brodin",
+    "Daemon Hunt",
+    "Zach Bogosian",
+    "Calvin Pickard"
+   ],
+   "text": "F1 : Kirill Kaprizov – Joel Eriksson Ek – Matt Boldy\nF2 : Blake Coleman – Ryan Hartman – Maxim Shabanov\nF3 : Rieger Lorenz – Danila Yurov – Bobby Brink\nF4 : Nico Sturm – Michael McCarron – Yakov Trenin\nD1 : Quinn Hughes – Jared Spurgeon\nD2 : Olli Maatta – Jonas Brodin\nD3 : Daemon Hunt – Zach Bogosian\n🥅 Gardien probable : Calvin Pickard"
+  },
+  "2026020099-WPG": {
+   "players": [
+    "Kyle Connor",
+    "Mark Scheifele",
+    "Cole Perfetti",
+    "Nino Niederreiter",
+    "Viggo Björck",
+    "Gabriel Vilardi",
+    "Isak Rosen",
+    "Adam Lowry",
+    "Alex Iafallo",
+    "Vladislav Namestnikov",
+    "Morgan Barron",
+    "Cole Koepke",
+    "Dylan Samberg",
+    "Dylan DeMelo",
+    "Mario Ferraro",
+    "Neal Pionk",
+    "Haydn Fleury",
+    "Tyrel Bauer",
+    "Clay Stevenson"
+   ],
+   "text": "F1 : Kyle Connor – Mark Scheifele – Cole Perfetti\nF2 : Nino Niederreiter – Viggo Björck – Gabriel Vilardi\nF3 : Isak Rosen – Adam Lowry – Alex Iafallo\nF4 : Vladislav Namestnikov – Morgan Barron – Cole Koepke\nD1 : Dylan Samberg – Dylan DeMelo\nD2 : Mario Ferraro – Neal Pionk\nD3 : Haydn Fleury – Tyrel Bauer\n🥅 Gardien probable : Clay Stevenson"
+  },
+  "2026020100-COL": {
+   "players": [
+    "Artturi Lehkonen",
+    "Nathan MacKinnon",
+    "Martin Necas",
+    "Gabriel Landeskog",
+    "Brock Nelson",
+    "Nazem Kadri",
+    "Jaden Schwartz",
+    "Fedor Svechkov",
+    "T.J. Hughes",
+    "Zachary L'Heureux",
+    "Nicolas Roy",
+    "Parker Kelly",
+    "Devon Toews",
+    "Cale Makar",
+    "Brett Kulak",
+    "Sam Malinski",
+    "Josh Manson",
+    "Brent Burns",
+    "Mackenzie Blackwood"
+   ],
+   "text": "F1 : Artturi Lehkonen – Nathan MacKinnon – Martin Necas\nF2 : Gabriel Landeskog – Brock Nelson – Nazem Kadri\nF3 : Jaden Schwartz – Fedor Svechkov – T.J. Hughes\nF4 : Zachary L'Heureux – Nicolas Roy – Parker Kelly\nD1 : Devon Toews – Cale Makar\nD2 : Brett Kulak – Sam Malinski\nD3 : Josh Manson – Brent Burns\n🥅 Gardien probable : Mackenzie Blackwood"
+  },
+  "2026020100-DAL": {
+   "players": [
+    "Sam Steel",
+    "Wyatt Johnston",
+    "Mikko Rantanen",
+    "Jason Robertson",
+    "Roope Hintz",
+    "Jamie Benn",
+    "Justin Hryckowian",
+    "Arttu Hyry",
+    "Tyler Seguin",
+    "Oskar Back",
+    "Radek Faksa",
+    "Colin Blackwell",
+    "Esa Lindell",
+    "Miro Heiskanen",
+    "Thomas Harley",
+    "Nils Lundkvist",
+    "Lian Bichsel",
+    "Tyler Myers",
+    "Casey DeSmith"
+   ],
+   "text": "F1 : Sam Steel – Wyatt Johnston – Mikko Rantanen\nF2 : Jason Robertson – Roope Hintz – Jamie Benn\nF3 : Justin Hryckowian – Arttu Hyry – Tyler Seguin\nF4 : Oskar Back – Radek Faksa – Colin Blackwell\nD1 : Esa Lindell – Miro Heiskanen\nD2 : Thomas Harley – Nils Lundkvist\nD3 : Lian Bichsel – Tyler Myers\n🥅 Gardien probable : Casey DeSmith"
   }
  },
  "offset": 265304001,
